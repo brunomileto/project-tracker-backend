@@ -3,20 +3,24 @@ const assert = require("assert");
 
 dotenv.config();
 
-const {
+let {
   PORT,
   HOST,
   HOST_URL,
 } = process.env;
 
-console.log(PORT)
+let correctPort = process.env.PORT;
+if (correctPort == null || correctPort == "") {
+  correctPort = PORT;
+}
+console.log(correctPort)
 console.log(HOST)
 
-assert(PORT, "PORT is required!");
+assert(correctPort, "PORT is required!");
 assert(HOST, "HOST is required!");
 
 module.exports = {
-  port: PORT,
+  port: correctPort,
   host: HOST,
   url: HOST_URL,
 };
