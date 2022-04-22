@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --inspect --ignore __tests",
+    "swagger-autogen": "node src/swagger.js",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "swagger-autogen": "^2.19.0",
+    "swagger-ui-express": "^4.3.0",
+    "tsscmp": "^1.0.6",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.4.6",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
+  }
+}
