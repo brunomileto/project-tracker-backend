@@ -1,0 +1,7 @@
+{
+  "name": "Project Tracker API",
+  "description": "The API of the project tracker app. It uses Firebase as database and this API query and save data there",
+  "repository": "https://github.com/brunomileto/project-tracker-backend",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "project-tracker", "firebase", "api"]
+}
