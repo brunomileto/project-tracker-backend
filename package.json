@@ -9,6 +9,9 @@
     "swagger-autogen": "node src/swagger.js",
     "start": "node src/server.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
