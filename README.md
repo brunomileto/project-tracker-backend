@@ -1,7 +1,10 @@
 This is the backend for the [project tracker frontend](https://github.com/brunomileto/project-tracker-frontend.git)
 
-The project is a simple electron app, that you can track work hours in tasks and the respective project for that task
-![Teste](https://github.com/brunomileto/project-tracker-backend/blob/master/docs/assets/imgs/Screenshot_04.png?raw=true)
+The project is a simple electron app, that you can track work hours in tasks and the respective project for that task.
+
+![App Image](https://github.com/brunomileto/project-tracker-backend/blob/master/docs/assets/imgs/Screenshot_04.png?raw=true)
+
+It is ready to upload on [Heroku](https://heroku.com/). You can use the [Isomnia Json](https://github.com/brunomileto/project-tracker-backend/blob/master/Insomnia_2022-04-29.json) for dev environment but also, after upload to heroku, you can use de prd environment to set your heroku url.
 
 ## Getting Started
 
@@ -25,18 +28,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Technology stack:
 
-- [Typescript](https://www.typescriptlang.org/)
-- [React](https://github.com/facebook/react)
-- [Next.js](https://github.com/zeit/next.js)
+- [NodeJs](https://nodejs.org/en/)
 - [Firebase Firestore & Auth](https://firebase.google.com/)
-- [Stitches](https://stitches.dev/)
-- [Radix](https://www.radix-ui.com/)
-- [SWR](https://swr.vercel.app/)
-- [Jest](https://jestjs.io/)
-- [Testing Library](https://testing-library.com/)
-- [Cypress](https://www.cypress.io/)
-- [ESLint](https://github.com/eslint/eslint)
-- [Prettier](https://github.com/prettier/prettier)
 
 ## Firebase Configuration
 
