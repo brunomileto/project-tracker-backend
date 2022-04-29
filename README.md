@@ -1,7 +1,7 @@
 This is the backend for the [project tracker frontend](https://github.com/brunomileto/project-tracker-frontend.git)
 
 The project is a simple electron app, that you can track work hours in tasks and the respective project for that task
-(https://github.com/brunomileto/project-tracker-backend/blob/master/docs/assets/imgs/Screenshot_04.png)
+![Teste](https://github.com/brunomileto/project-tracker-backend/docs/assets/imgs/Screenshot_04.png)
 
 ## Getting Started
 
