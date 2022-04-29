@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the backend for the [project tracker frontend](https://github.com/brunomileto/project-tracker-frontend.git)
 
-This template uses [Stitches](https://stitches.dev/) and [Radix](https://www.radix-ui.com/) for CSS-in-JS, [Firebase Firestore](https://firebase.google.com/) as database, [SWR](https://swr.vercel.app/) for data-fetching and [Jest](https://jestjs.io/), [Testing Library](https://testing-library.com/) and [Cypress](https://www.cypress.io/) for tests.
+The project is a simple electron app, that you can track work hours in tasks and the respective project for that task
 
 ## Getting Started
 
